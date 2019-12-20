@@ -1,6 +1,6 @@
 # next-nprogress-emotion
 
-Theme-aware NProgress component to use in Next.js apps.
+Theme-aware NProgress component to use in Next.js apps using Emotion or ThemeUI.
 
 This component borrows heavily from the [`next-nprogress`](https://github.com/sergiodxa/next-nprogress) package. It was refactored to fix [this issue](https://github.com/sergiodxa/next-nprogress/issues/76).
 

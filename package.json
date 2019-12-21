@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "license": "MIT",
   "author": "Frederick Morin (https://freddydumont.com)",
-  "description": "Theme-aware NProgress component to use in Next.js apps using Emotion or ThemeUI.",
+  "description": "Theme aware NProgress component to use in Next.js apps using Emotion or ThemeUI.",
+  "bugs": "https://github.com/freddydumont/next-nprogress-emotion/issues",
+  "repository": "github:freddydumont/next-nprogress-emotion",
   "keywords": [
     "nextjs",
     "next",

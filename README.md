@@ -6,6 +6,13 @@ This component borrows heavily from the [`next-nprogress`](https://github.com/se
 
 The original component was converted into a functional component using TypeScript and Emotion. It is theme aware so can be used with ThemeUI, or with any valid css color.
 
+- [next-nprogress-emotion](#next-nprogress-emotion)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Component](#component)
+    - [Advanced Config](#advanced-config)
+  - [Difference between v1 and v2](#difference-between-v1-and-v2)
+
 ## Installation
 
 ```bash
@@ -60,3 +67,7 @@ You can configure NProgress using its [configuration options](https://github.com
   spinner
 />
 ```
+
+## Difference between v1 and v2
+
+Use v1 if you're using `@emotion/core@^10` and v2 if you're using `@emotion/react@^11`.

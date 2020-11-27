@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import NProgress from 'nprogress';
 import Router from 'next/router';
-import { Global } from '@emotion/core';
+import { Global } from '@emotion/react';
 
 interface NProgressContainerProps {
   /**
@@ -60,7 +60,7 @@ const NProgressContainer = ({
       styles={theme => {
         // tries to find a corresponding color in the theme but falls back
         // to whatever color is supplied
-        const themeColor: string = theme?.colors?.[color] || color;
+        const themeColor: string = (theme as any)?.colors?.[color] || color;
 
         return {
           '#nprogress': {
